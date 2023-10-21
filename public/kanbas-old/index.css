@@ -1,0 +1,51 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-fg-color-red {
+    color: red;
+}
+
+.wd-margin-all-around {
+    margin: 5px;
+}
+
+.wd-padding-user {
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-bottom: 5px;
+}
+
+.wd-padding-link {
+    padding-bottom: 5px;
+}
+
+.wd-padding-all-around {
+    padding: 5px;
+}
+
+.wd-border-thin {
+    border-width: 8px;
+}
+.wd-border-solid {
+    border-style: solid;
+}
+.wd-border-black {
+    border-color: black;
+}
+.wd-border-white {
+    border-color: white;
+}
+.wd-dimension-square {
+    width: 75px;
+    height: 75px;
+ }
+ 
+ 
+  
+  
