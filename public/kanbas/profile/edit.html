@@ -1,75 +1,157 @@
-<table border="0" width="100%">
-    <tbody>
-        <td valign="top">
-            <ul>
-                <li><a href="account.html">Account</a> </li>
-                <li><a href="#">Dashboard</a> </li>
-                <li><a href="courses.html">Courses</a> </li>
-                <li><a href="#">Calendar</a> </li>
-                <li><a href="#">Inbox</a> </li>
-                <li><a href="#">History</a> </li>
-                <li><a href="#">Studio</a> </li>
-                <li><a href="#">Commons</a> </li>
-                <li><a href="#">Help</a> </li>
-            </ul>
-        </td>
-        <td valign="top">
-            <ul>
-                <li><a href="#">Notifications</a> </li>
-                <li><a href="./index.html">Profile</a></li>
-                <li><a href="#">Files</a> </li>
-                <li><a href="#">Settings</a> </li>
-                <li><a href="#">ePortfolios</a> </li>
-                <li><a href="#">Shared Content</a> </li>
-                <li><a href="#">The Hub</a> </li>
-                <li><a href="#">Quickly Course Tools</a> </li>
-                <li><a href="#">Global Announcements</a> </li>
-            </ul>
-        </td>
-        <td valign="top">
-            <h2>Jose Annunziato</h2>
-            <form> <label for="name-entry">Name:*</label>
-                <input type="text" id="name-entry" placeholder="Jose Annunziato"/>
-                <label for="pronoun-pick">Pronouns:</label>
-                <select> <option>None</option></select></form>
-            <label for="title-entry">Title:</label>
-            <input type="text" id="title-entry"/>
-            <h3>Contact</h3>
-            No registered services, you can add some on the <a href="#">settings</a> page.
-            <h3>Contact</h3>
-            No registered services, you can add some on the <a href="#">settings</a> page.
-            <h3>Biography</h3>
-            Faculty, Software Engineer, AI, Space, and renewables enthusiast.
-            <form><textarea cols="40" rows="3">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea></form>
-            <h3>Links</h3>
-            <ul>
-                <li><a href="#">Youtube</a></li>
-            </ul>
-            <table border="0" width="60%">
-                <thead>
-                    <th>Title</th>
-                    <th>URL</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <input type="text" placeholder="Youtube"/>
-                        </td>
-                        <td>
-                            <form><input type="text" placeholder="https://www.youtube.com"/><a href="#">Remove</a></form>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <button type="button">Add another link</button>
-            <form>
-                <a href="index.html">
-                    <button type="button">Cancel</button>
-                    <button type="button">Save Profile</button>
-                </a>
-            </form>
-            <a href="edit.html"> <button type="button">Edit Profile</button></a>
-            <a href="index.html"> <button type="button">Cancel Editing</button></a>
-        </td>
-    </tbody>
-</table>
+<html>
+    <head>   
+        <link href="../home.css"
+      rel="stylesheet"/>
+        <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href=
+        "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+        rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/0bf0bb8855.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wd-flex-pg-container">
+            <div class="wd-flex-col-nav-bar">
+                <div class="wd-flex-nav-box">
+                    <i class = "fas fa-n wd-neu-symbol"></i>
+                </div>
+                <div class="wd-flex-nav-box-active">
+                    <a href="account.html" id="id-nav-active">
+                        <div><i class="far fa-user wd-account-symbol"></i>
+                        </div>
+                    Account</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav">
+                        <i class="fas fa-gauge wd-nav-symbol"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="../courses.html" id="id-nav">
+                        <i class="fas fa-book wd-nav-symbol"></i>
+                        <div>Courses</div>
+                    </a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav">
+                        <div><i class="fas      fa-calendar-days wd-nav-symbol"></i>
+                        </div>
+                    Calendar</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="fas fa-envelope-open-text wd-nav-symbol"></i></div>
+                    Inbox</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="far fa-clock wd-nav-symbol"></i></div>
+                    History</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="fas fa-network-wired wd-nav-symbol"></i></div>
+                    Studio</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="fas fa-arrow-right-from-bracket wd-nav-symbol"></i></div>
+                    Commons</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="far fa-circle-question wd-nav-symbol"></i></div>
+                    Help</a>
+                </div>
+            </div>
+            <div class="wd-acc-nav">
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">Notifications</a>
+                </div>
+                <div class="wd-acc-nav-box-active"> 
+                    <a href="./index.html" class="acc-active">Profile</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">Files</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">Settings</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">ePortfolios</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">Shared Content</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">The Hub</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">Qwickly Course Tools</a>
+                </div>
+                <div class="wd-acc-nav-box"> 
+                    <a href="#" class="acc">Global Announcements</a>
+                </div>
+            </div>
+            <div class="wd-acc-info">
+                <div class="edit-personal-info-box">
+                    <i class="far fa-user acc-profile-pic"></i>
+                    <div>
+                        <label for="nameInput" class="form-label">Name:*</label>
+                        <input id="nameInput" class="form-control form-control-sm" type="text" value="Iyanna Maxwell-Perry">
+                    </div>
+                    <div>
+                        <label for="pronounSelect" class="form-label">Pronouns:</label>
+                        <select class="form-select form-select-sm">
+                            <option selected>None</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="titleInput" class="form-label">Title:</label>
+                        <input id="titleInput" class="form-control form-control-sm" type="text">
+                    </div>
+                </div>
+                <div class="edit-personal-info-box">
+                    <div> <h4 class="acc-heading">Contact</h4> </div>
+                    <div> 
+                        <p> No registered services, you can add some on the 
+                            <a href="#" class="acc-info-link">settings</a> page.</p>
+                    </div>
+                </div>
+                <div class="edit-personal-info-box">
+                    <div> <h4 class="acc-heading">Biography</h4> </div>
+                    <div> 
+                        <textarea type= class="form-control" rows="4" placeholder="4th year student at Northeastern University"></textarea>
+                    </div>
+                </div>
+                <div class="edit-personal-info-box">
+                    <div> <h4 class="acc-heading">Links</h4> </div>
+                    <div class="container text-center"> 
+                        <div class="row">
+                            <div class="col">
+                                Title
+                            </div>
+                            <div class="col">
+                                URL
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-control form-control-sm" type="text" value="Youtube">
+                            </div>
+                            <div class="col">
+                                <input class="form-control form-control-sm" type="url" value="https://www.youtube.com/@WebDevTV">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col justify-content-left">
+                                <button type="button" class="btn btn-light btn-sm">Add another link</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-light">
+                    <i class="fas fa-pencil"></i>
+                    <a href="./index.html" style="text-decoration: none; color:grey">Cancel Editing</a></button>
+            </div>
+        </div>
+    </body>
+</html>
