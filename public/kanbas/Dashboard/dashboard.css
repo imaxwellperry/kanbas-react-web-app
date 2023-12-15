@@ -1,0 +1,55 @@
+.dash-pg-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.dash-title {
+    color: darkslategray;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.dash-line {
+    margin-top: 5px;
+}
+
+.dash-courses-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+}
+.dash-courses-title {
+    color: darkslategray;
+    font-weight: 300;
+}
+
+.dash-course-card {
+    width: 270px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.card-text{
+    text-overflow: ellipsis;
+}
+
+.card-subtitle {
+    text-overflow: ellipsis;
+}
+
+.card-img {
+   height: 150px;
+}
+
+a.course-link:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.course-link:visited {
+    text-decoration: none;
+    color: black;
+}
