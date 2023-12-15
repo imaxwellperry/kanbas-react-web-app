@@ -4,6 +4,7 @@ function HelloWorld() {
   <div>
    <Link to="/hello">Hello</Link> |
    <Link to="/Labs/a3">A3</Link> |
+   <Link to="/Labs/a4">A4</Link> |
    <Link to="/Kanbas">Kanbas</Link>
    <h1>Hello World!</h1>
   </div>

@@ -7,7 +7,7 @@ function KanbasNavigation() {
       {links.map((link, index) => (
         <Link
           key={index}
-          to={`/Kanbas/${link}`}
+          to={`/Kanbas/${link}`} 
           className={`list-group-item ${pathname.includes(link) && "active"}`}>
           {link}
         </Link>
