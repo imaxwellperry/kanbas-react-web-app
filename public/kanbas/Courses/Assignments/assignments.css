@@ -190,3 +190,13 @@
    align-items: right;
    justify-content: right;
 }
+
+a.assignment-title:link{
+    text-decoration: none;
+    color: black;
+}
+
+a.assignment-title:visited{
+    text-decoration: none;
+    color: black;
+}
