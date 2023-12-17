@@ -11,3 +11,195 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.wd-bg-color-black {
+  background-color: black;
+}
+
+.wd-grid-col{
+  float:left
+}
+
+.wd-red{
+  color: red;
+}
+
+.wd-flex-pg-container{
+  flex-direction: row;
+  display: flex;
+  height:max-content;
+}
+
+.wd-flex-col-nav-bar{
+  flex-direction:column;
+  display: flex;
+  height:auto;
+  background-color: black;
+}
+
+.wd-acc-nav{
+  flex-direction:column;
+  display: flex;
+  height: max-content;
+  width: 200px;
+  padding-left:30px;
+}
+
+.wd-acc-nav-box{
+  display: flex;
+  text-wrap: pretty;
+  margin-top: 20px;
+}
+
+.wd-acc-nav-box-active{
+  display: flex;
+  text-wrap: pretty;
+  margin-top: 20px;
+  border-color: black;
+  border-left: solid;
+}
+
+a.acc:link{
+  justify-content: left;
+  color: red;
+  text-decoration: none;
+}
+
+a.acc:hover{
+  text-decoration: none;
+}
+
+a.acc:visited {
+  justify-content: left;
+  color: red;
+  text-decoration: none;
+}
+
+a.acc-active:link{
+  justify-content: left;
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+}
+a.acc-active:hover{
+  text-decoration: none;
+}
+
+a.acc-active:visited{
+  justify-content: left;
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.wd-no-bullets {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.wd-flex-nav-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wd-flex-nav-box-active{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wd-neu-symbol{
+  color: red;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.wd-account-symbol{
+  color: gray;
+  font-size: 27px;
+  margin: 10px;
+}
+
+a#id-nav{
+  color:white;
+  text-decoration: none;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a#id-nav-active{
+  color:red;
+  text-decoration: none;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wd-nav-symbol{
+  color: red;
+  font-size: 27px;
+  margin: 5px;
+}
+
+.wd-acc-info {
+  display: flex;
+  flex-direction: column;
+  width:250px;
+  margin-left: 80px;
+}
+
+.wd-acc-info-box{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-wrap: pretty;
+  margin-top: 20px;
+}
+
+.acc-info-link{
+  color: red;
+  text-decoration: none;
+}
+
+.acc-profile-pic {
+  color: gray;
+  font-size: 7em;
+  margin: 10px;
+  padding-bottom: 5px;
+}
+
+.acc-heading {
+  padding-bottom: 5px;
+}
+
+.edit-prof-button {
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+
+.edit-personal-info-box{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.edit-profile-input {
+  width: 20px;
+}
+
+.edit-profile-buttons-box{
+ display: flex;
+ flex-direction: row;
+ align-items: right;
+ justify-content: right;
+}

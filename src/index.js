@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'https://kit.fontawesome.com/0bf0bb8855.js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

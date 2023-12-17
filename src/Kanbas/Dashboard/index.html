@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'https://kit.fontawesome.com/0bf0bb8855.js';
-import styles from '../index.css';
-
-import db from "../Database";
-function Dashboard() {
-  const courses = db.courses;
-  return (
-  <div>
+<html>
+    <head>
+        <link href="../home.css"
+          rel="stylesheet"/>
+          <link href="./dashboard.css"
+          rel="stylesheet"/>
+          <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+          <link href=
+ "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+ rel="stylesheet"/>
+ <script src="https://kit.fontawesome.com/0bf0bb8855.js" crossorigin="anonymous"></script>
+    </head>
     <body>
-        <div className={styles.wd-flex-pg-container}>
+        <div class="wd-flex-pg-container">
             <div class="wd-flex-col-nav-bar">
                 <div class="wd-flex-nav-box">
                     <i class = "fas fa-n wd-neu-symbol"></i>
@@ -76,7 +78,7 @@ function Dashboard() {
                     <div class="d-flex flex-row flex-wrap">
                         <div class="card dash-course-card" >
                                 <a href="../Courses/home.html" class="course-link">
-                                <img src={require('./cardImages/1920x1200-antique-brass-solid-color-background.jpg')} class="card-img-top" alt="idk" style={{width: "325px", height:"120px"}}/>
+                                <img src="./cardImages/1920x1200-antique-brass-solid-color-background.jpg" class="card-img-top">
                                 <div class="card-body text-truncate">
                                     <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                     <h5 class="card-title">CS5610.17367.202410</h5>
@@ -86,7 +88,7 @@ function Dashboard() {
                         </div>
                         <div class="card dash-course-card" >
                             <a href="../Courses/home.html" class="course-link">
-                            <img src="./cardImages/1920x1200-antique-bronze-solid-color-background.jpg" class="card-img-top"/>
+                            <img src="./cardImages/1920x1200-antique-bronze-solid-color-background.jpg" class="card-img-top">
                             <div class="card-body text-truncate">
                                 <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                 <h5 class="card-title">CS5610.17367.202410</h5>
@@ -96,7 +98,7 @@ function Dashboard() {
                         </div>
                         <div class="card dash-course-card" >
                             <a href="../Courses/home.html" class="course-link">
-                            <img src="./cardImages/1920x1200-antique-fuchsia-solid-color-background.jpg" class="card-img-top"/>
+                            <img src="./cardImages/1920x1200-antique-fuchsia-solid-color-background.jpg" class="card-img-top">
                             <div class="card-body text-truncate">
                                 <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                 <h5 class="card-title">CS5610.17367.202410</h5>
@@ -106,7 +108,7 @@ function Dashboard() {
                         </div>
                         <div class="card dash-course-card" >
                             <a href="../Courses/home.html" class="course-link">
-                            <img src="./cardImages/1920x1200-antique-ruby-solid-color-background.jpg" class="card-img-top"/>
+                            <img src="./cardImages/1920x1200-antique-ruby-solid-color-background.jpg" class="card-img-top">
                             <div class="card-body text-truncate">
                                 <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                 <h5 class="card-title">CS5610.17367.202410</h5>
@@ -116,7 +118,7 @@ function Dashboard() {
                         </div>
                         <div class="card dash-course-card" >
                             <a href="../Courses/home.html" class="course-link">
-                            <img src="./cardImages/1920x1200-ao-english-solid-color-background.jpg" class="card-img-top"/>
+                            <img src="./cardImages/1920x1200-ao-english-solid-color-background.jpg" class="card-img-top">
                             <div class="card-body text-truncate">
                                 <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                 <h5 class="card-title">CS5610.17367.202410</h5>
@@ -126,7 +128,7 @@ function Dashboard() {
                         </div>
                         <div class="card dash-course-card" >
                             <a href="../Courses/home.html" class="course-link">
-                            <img src="./cardImages/1920x1200-apple-green-solid-color-background.jpg" class="card-img-top"/>
+                            <img src="./cardImages/1920x1200-apple-green-solid-color-background.jpg" class="card-img-top">
                             <div class="card-body text-truncate">
                                 <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                 <h5 class="card-title">CS5610.17367.202410</h5>
@@ -136,7 +138,7 @@ function Dashboard() {
                         </div>
                         <div class="card dash-course-card" >
                             <a href="../Courses/home.html" class="course-link">
-                            <img src="./cardImages/1920x1200-baby-pink-solid-color-background.jpg" class="card-img-top"/>
+                            <img src="./cardImages/1920x1200-baby-pink-solid-color-background.jpg" class="card-img-top">
                             <div class="card-body text-truncate">
                                 <h6 class="card-subtitle" >CS5610 17367 Web Development</h6>
                                 <h5 class="card-title">CS5610.17367.202410</h5>
@@ -150,7 +152,4 @@ function Dashboard() {
         </div>
            
     </body>
-  </div>);
-}
-
-export default Dashboard;
+</html>
