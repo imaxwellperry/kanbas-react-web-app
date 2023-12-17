@@ -24,7 +24,6 @@ return (
       <button onClick={updateCourse} >
         Update
       </button>
-
       <div className="list-group">
         {courses.map((course) => (
           <Link key={course._id}>
@@ -37,7 +36,6 @@ return (
               }}>
               Edit
             </button>
-
                 <button
               onClick={(event) => {
                 event.preventDefault();
