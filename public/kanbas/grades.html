@@ -1,97 +1,246 @@
-<table border="0" width="100%">
-    <tbody>
-        <td valign="top">
-            <ul>
-                <li><a href="account.html">Account</a> </li>
-                <li><a href="#">Dashboard</a> </li>
-                <li><a href="courses.html">Courses</a> </li>
-                <li><a href="#">Calendar</a> </li>
-                <li><a href="#">Inbox</a> </li>
-                <li><a href="#">History</a> </li>
-                <li><a href="#">Studio</a> </li>
-                <li><a href="#">Commons</a> </li>
-                <li><a href="#">Help</a> </li>
-            </ul>
-        </td>
-        <td valign="top">
-            <ul> 
-                <li><a href="home.html">Home</a> </li>
-                <li><a href="#">Modules</a> </li>
-                <li><a href="#">Piazza</a> </li>
-                <li><a href="#">Zoom Meetings</a> </li>
-                <li><a href="assignments/index.html">Assignments</a> </li>
-                <li><a href="#">Quizzes</a> </li>
-                <li><a href="grades.html">Grades</a> </li>
-                <li><a href="#">People</a> </li>
-                <li><a href="#">Panopto Video</a> </li>
-                <li><a href="#">Discussions</a> </li>
-                <li><a href="#">Announcements</a> </li>
-                <li><a href="#">Pages</a> </li>
-                <li><a href="#">Files</a> </li>
-                <li><a href="#">Rubrics</a> </li>
-                <li><a href="#">Outcomes</a> </li>
-                <li><a href="#">Collaborations</a> </li>
-                <li><a href="#">Syllabus</a> </li>
-                <li><a href="#">Settings</a> </li>
-            </ul>
-        </td>
-        <td valign="top">
-            <table border="0" width="25%">
-                <tbody>
-                    <td> <select> <option>Gradebook</option></select></td>
-                    <td> <button type=button>Import</button></td>
-                    <td> <select> <option>Export</option></select></td>
-                    <td> <button type="button">Configure</button></td>
-                </tbody>
-            </table>
-            <h2>Student Names</h2>
-            <input type="text" placeholder="Search Students" title="student searchbar"/>
-            <h2>Assignment Names</h2>
-            <form>
-                <input type="text" placeholder="Search Assignments" title="assignment searchbar"/>
-            </form>
-            <button type="button">Apply Filters</button>
-            <table border="1" width="100%">
-                <thead>
-                    <tr>
-                        <th>Student Name</th>
-                        <th> A1 SETUP Out of 100</th>
-                        <th> A2 HTML Out of 100</th>
-                        <th> A3 CSS Out of 100</th>
-                        <th> A4 BOOTSTRAP Out of 100</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Alice Wonderland</td>
-                        <td>98</td>
-                        <td>89</td>
-                        <td> <input type="text" placeholder="87"/></td>
-                        <td>90</td>
-                    </tr>
-                    <tr>
-                        <td>Princess Leia</td>
-                        <td>98</td>
-                        <td> <input type="text" placeholder="80"/></td>
-                        <td>87</td>
-                        <td>86</td>
-                    </tr>
-                    <tr>
-                        <td>Luke Skywalker</td>
-                        <td> <input type="text" placeholder="99"/></td>
-                        <td>88</td>
-                        <td>97</td>
-                        <td>82</td>
-                    </tr>
-                    <tr>
-                        <td>Han Solo</td>
-                        <td>83</td>
-                        <td>99</td>
-                        <td>94</td>
-                        <td> <input type="text" placeholder="98"/></td>
-                    </tr>
-                </tbody>
-            </table>
-        </td>
-    </tbody>
-</table>
+<html>
+    <head>   
+        <link href="./home.css"
+      rel="stylesheet"/>
+      <link href="./Courses/courses.css"
+      rel="stylesheet"/>
+        <link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href=
+        "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+        rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/0bf0bb8855.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wd-flex-pg-container">
+            <div class="wd-flex-col-nav-bar">
+                <div class="wd-flex-nav-box">
+                    <i class = "fas fa-n wd-neu-symbol"></i>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="account.html" id="id-nav">
+                        <div><i class="far fa-user wd-account-symbol"></i>
+                        </div>
+                    Account</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="../Dashboard/index.html" id="id-nav">
+                        <i class="fas fa-gauge wd-nav-symbol"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </div>
+                <div class="wd-flex-nav-box-active">
+                    <a href="../courses.html" id="id-nav-active">
+                        <i class="fas fa-book wd-nav-symbol"></i>
+                        <div>Courses</div>
+                    </a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav">
+                        <div><i class="fas      fa-calendar-days wd-nav-symbol"></i>
+                        </div>
+                    Calendar</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="fas fa-envelope-open-text wd-nav-symbol"></i></div>
+                    Inbox</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="far fa-clock wd-nav-symbol"></i></div>
+                    History</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="fas fa-network-wired wd-nav-symbol"></i></div>
+                    Studio</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="fas fa-arrow-right-from-bracket wd-nav-symbol"></i></div>
+                    Commons</a>
+                </div>
+                <div class="wd-flex-nav-box">
+                    <a href="#" id="id-nav"><div><i class="far fa-circle-question wd-nav-symbol"></i></div>
+                    Help</a>
+                </div>
+            </div>
+            <div class="courses-pg-container"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-auto"><i class="fas  fa-bars courses-bar"></i>
+                        </div>
+                        <div class="col">
+                            <nav class="courses-breadcrumb" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item courses-breadcrumb-text">
+                                CS4550.12631.202410
+                                </li>
+                                <li class="breadcrumb-item">Grades</li>
+                            </ol></nav>
+                        </div>
+                    </div>  
+                </div>
+                <div>
+                    <hr class="courses-line"/>
+                </div>
+                <div class="courses-center">
+                    <div class="wd-acc-nav">
+                        <div class="wd-acc-nav-box"> 
+                            <a href="./Courses/home.html" class="acc">Home</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="./index.html" class="acc">Modules</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Piazza</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Zoom Meetings</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="./assignments/index.html" class="acc">Assignments</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Quizzes</a>
+                        </div>
+                        <div class="wd-acc-nav-box-active"> 
+                            <a href="./grades.html" class="acc-active">Grades</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">People</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Panopto Video</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Discussions</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Announcements</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Pages</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Files</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Rubrics</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Outcomes</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Collaborations</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Syllabus</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Progress Reports (EAB Navigate)</a>
+                        </div>
+                        <div class="wd-acc-nav-box"> 
+                            <a href="#" class="acc">Settings</a>
+                        </div>
+                    </div>
+                    <div class="courses-center-middle w-75">
+                        <div class="container">
+                            <div class="col"> 
+                                <div class="float-end">
+                                    <button type="button" class="btn btn-light btn-lg mx-2">
+                                    <i class="fas fa-gear"></i>
+                                    </button>
+                                </div>
+                                <div class="float-end">
+                                    <button type="button" class="btn btn-light mx-2">
+                                        <i class="fas fa-file-export"></i>Export
+                                    </button>
+                                </div>
+                                <div class="float-end">
+                                    <button type="button" class="btn btn-light mx-2">
+                                        <i class="fas fa-file-import"></i>import
+                                    </button>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="container float-start">
+                            <div class="row"> 
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row"> 
+                                            <div class="col float-start">
+                                                <h5>Student Names</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <input class="form-control" type="search" id="query" name="q" placeholder="Search Students">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row"> 
+                                            <div class="col float-start">
+                                                <h5>Assignment Names</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <input class="form-control" type="search" placeholder="Search Assignments">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col float-start my-4">
+                                    <button class="btn btn-light">
+                                        Apply Filters
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Student Name</th>
+                                        <th scope="col"> A1 SETUP Out of 100</th>
+                                        <th scope="col"> A2 HTML Out of 100</th>
+                                        <th scope="col"> A3 CSS Out of 100</th>
+                                        <th scope="col"> A4 BOOTSTRAP Out of 100</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Alice Wonderland</td>
+                                            <td>98</td>
+                                            <td>89</td>
+                                            <td> <input class="form-control" type="text" placeholder="87"/></td>
+                                            <td>90</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Princess Leia</td>
+                                            <td>98</td>
+                                            <td> <input class="form-control" type="text" placeholder="80"/></td>
+                                            <td>87</td>
+                                            <td>86</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luke Skywalker</td>
+                                            <td> <input class="form-control" type="text" placeholder="99"/></td>
+                                            <td>88</td>
+                                            <td>97</td>
+                                            <td>82</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Han Solo</td>
+                                            <td>83</td>
+                                            <td>99</td>
+                                            <td>94</td>
+                                            <td> <input class="form-control" type="text" placeholder="98"/></td>
+                                        </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
